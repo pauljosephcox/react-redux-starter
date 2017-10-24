@@ -1,0 +1,27 @@
+//
+// Global Settigns
+// --------------------------------------------------
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	// @include container()
+}
+
+.error {
+	color: $errorColor; 
+}
+
+.success { 
+	color: $successColor; 
+}
+
+
+.wysiwyg { padding: $space 0em; }
+
+body { background: blue; }
+
+header { background: purple; }
+footer { background: purple; @include columns(12); }
